@@ -1,0 +1,20 @@
+{
+  "id": "cybercity",
+  "title": {
+    "en": "CyberCity",
+    "zh": "赛博城"
+  },
+  "intro": {
+    "en": "Walk four worlds drawn only in text: a rain-lit city, a frontier town, the Moon and a lantern keep. Drag to look, use the stick to walk, or let it stroll.",
+    "zh": "四个世界全用字符绘成：雨夜都市、边疆小镇、月球与灯笼城堡。拖动右侧环视，左下摇杆行走，松手后会自己沿街闲逛。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/city.css",
+    "vendor/city.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/cybercity"
+}
