@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="gb-retract" content="#sheet">
+<title>CyberCity</title>
+<base href="vendor/">
+<script src="/sandbox/_ready.js"></script>
+<link rel="stylesheet" href="city.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button id="gear" type="button" aria-label="Worlds and about" aria-expanded="false">☰</button>
+<div id="sheet">
+  <p id="where">Rain City</p>
+  <button type="button" data-world="0">Rain City</button>
+  <button type="button" data-world="1">Dust Town</button>
+  <button type="button" data-world="2">Mare Glass</button>
+  <button type="button" data-world="3">Lantern Keep</button>
+  <button type="button" id="hour">Step the hour</button>
+  <p>Drag the right side to look. The lower-left stick walks. Let go and the street strolls on its own. A bright ground mark is a gate to the next world.</p>
+  <p class="credit">idea after @miguelcarino (miguelcarino/cybercity); clean-room implementation, no code copied</p>
+  <p class="credit">MIT licence: LICENSE.txt</p>
+</div>
+<script src="city.js"></script>
+</body>
+</html>
